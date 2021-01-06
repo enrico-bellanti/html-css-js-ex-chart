@@ -1,0 +1,10 @@
+The task is to build chart which represents the data from emotions.json file with JavaScript.
+JSON has meta information and an array with session events. Each event has participant id (integer) and attention value (float).
+The chart should show a line for each participant.
+The X axis is minutes from the beginning of the session. The Y axis is the average attention per minute.
+If there are no data for some minute the line in the chart should have a gap.
+
+The example.jpg shows approximate result.
+
+Bonus:
+It's good to have smooth line and the ability to change the scale of X axis, for example, to show the values for each 10 seconds.
